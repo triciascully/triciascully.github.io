@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: A few things.
+subtitle: A few notable things
 ---
 
 I'm a translator at the core of me, and I work in various mediums.
