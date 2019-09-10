@@ -12,15 +12,15 @@ I've been in the analytics field for about 5 years, translating piles of structu
 
 ### Photography
 
-I've been capturing personality and emotion for corporate clients, private clients, and international publications for roughly a decade as a [triciascully.com](https://www.triciascully.com "professional photographer").
+I've been capturing personality and emotion for corporate clients, private clients, and international publications for roughly a decade as a [professional photographer](https://www.triciascully.com).
 
 ### Videography
 
-I'm a [triciascully.com/Videography](https://www.triciascully.com/Videography "videographer") for corporate and private events and businesses as well, helping clients curate their messages and content to most effectively showcase their products and services to a wide audience with varying tastes.
+I'm a [videographer](https://www.triciascully.com/Videography) for corporate and private events and businesses as well, helping clients curate their messages and content to most effectively showcase their products and services to a wide audience with varying tastes.
 
 ### Music
 
-Taking complex messages and turning them into compact 2 1/2 minute narratives has been a puzzle I've enjoyed solving through [music](https://youtu.be/zVcdyamcC0c "songwriting") and playing in various bands for almost 20 years. I've toured the US and a few cities in Europe, but I stick to small venues on weekend evenings in Chicago as of late.
+Taking complex messages and turning them into compact 2 1/2 minute narratives has been a puzzle I've enjoyed solving through [songwriting](https://youtu.be/zVcdyamcC0c) and playing in various bands for almost 20 years. I've toured the US and a few cities in Europe, but I stick to small venues on weekend evenings in Chicago as of late.
 
 ### Ice Hockey
 
