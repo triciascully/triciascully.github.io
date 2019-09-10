@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: Tricia\`s Data Science Blog
+title: Tricia Scully
 
 # Short description of your site
-description: Machine Learning | Data Science | Data Viz
+description: Machine Learning | Data Science | Data Viz | Blog
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
