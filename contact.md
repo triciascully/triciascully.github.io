@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-subtitle: Say "Hi".
+subtitle: Say "Hi"
 ---
 
-You can reach me at pcscully@gmail.com
+<p style="text-align: center;"> You can reach me at pcscully@gmail.com </p>
