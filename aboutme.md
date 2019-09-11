@@ -16,7 +16,7 @@ I've been capturing personality and emotion for corporate clients, private clien
 
 ### Videography
 
-I'm a [videographer](https://www.triciascully.com/Videography) for corporate and private events and businesses as well, helping clients curate their messages and content to most effectively showcase their products and services to a wide audience with varying tastes.
+I'm a [videographer](https://www.triciascully.com/Videography) for corporate and private clients, helping them curate their messages and content to most effectively showcase their products and services to a wide audience with varying tastes.
 
 ### Music
 
