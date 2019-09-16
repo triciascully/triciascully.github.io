@@ -378,7 +378,7 @@ plt.axis('off')
 
 
 
-![png](output_18_3.png)
+![png](_posts/output_18_3.png)
 
 
 
