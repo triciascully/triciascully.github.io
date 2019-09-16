@@ -219,9 +219,9 @@ Looks like Captain Janeway is one verbose leader! I always thought of her as mor
 
 I'll be honest in saying that since our dataset at hand is more recreational than anything, this histogram leaves much to be desired. Frequency charts can be a little more fun, so let's have it, let's get on with some fun.
 
-WordClouds
+## WordClouds
 
-While looking into some NLP kernels, I spotted a pretty interesting wordcloud focused Kaggle kernel that took images and created wordclouds from the outlines of the images:
+While looking into some NLP kernels on Kaggle, I spotted a pretty interesting one that took images and created wordclouds from the outlines of the images:
 https://www.kaggle.com/arthurtok/spooky-nlp-and-topic-modelling-tutorial
 
 Using a bit of the code from this kernel, let's have some fun with the text at hand.
@@ -358,11 +358,6 @@ plt.title("Star Trek | Deep Space 9", fontsize=20)
 plt.imshow(wc.recolor( colormap= 'Pastel2' , random_state=17), alpha=0.98)
 plt.axis('off')
 ```
-
-
-
-
-    (-0.5, 793.5, 898.5, -0.5)
 
 
 
