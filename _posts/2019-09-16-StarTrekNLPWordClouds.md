@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Star Trek | NLP
-image: /img/hello_world.jpeg
+title: Star Trek
+subtitle: NLP | WordClouds
+gh-repo: triciascully/StarTrek
+comments: true
 ---
+
 # Star Trek WordClouds
 
 After watching a few episodes of Voyager the other day, I decided to go on a hunt for Star Trek projects on Kaggle (this may or may not be the nerdiest sentence I've written to date). I found some small beginnings of projects, but nothing notably extensive. I found https://www.kaggle.com/gjbroughton/start-trek-scripts which was a nice beginning, so I decided to build off of what was in Gary's corresponding GitHub repo https://github.com/GJBroughton/Star_Trek_Scripts. 
@@ -211,7 +214,7 @@ plt.show()
 ```
 
 
-![png](output_5_0.png)
+![png](/img/output_5_0.png)
 
 
 Looks like Captain Janeway is one verbose leader! I always thought of her as more of a strong, silent type, but here I am, rendered incorrect by the data (my most favorite way to be incorrect). The rest of the characters start clocking counts at almost half of Janeway's, with the Emergency Medical Hologram (The Doctor) in second, and Commander Chakotay in third.
@@ -366,13 +369,13 @@ plt.axis('off')
 
 
 
-![png](output_18_1.png)
+![png](/img/output_18_1.png)
 
 
 
-![png](output_18_2.png)
+![png](/img/output_18_2.png)
 
 
 
-![png](output_18_3.png)
+![png](/img/output_18_3.png)
 
