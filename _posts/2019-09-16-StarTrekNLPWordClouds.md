@@ -6,9 +6,9 @@ gh-repo: triciascully/StarTrek
 comments: true
 ---
 
-After watching a few episodes of Voyager the other day, I decided to go on a hunt for Star Trek projects on Kaggle (this may or may not be the nerdiest sentence I've written to date). I found some small beginnings of projects, but nothing notably extensive. I found [this Kaggle Kernel](https://www.kaggle.com/gjbroughton/start-trek-scripts) which was a nice beginning, so I decided to build off of what was in Gary's corresponding GitHub [repo](https://github.com/GJBroughton/Star_Trek_Scripts). 
+After watching a few episodes of Voyager the other day, I decided to go on a hunt for Star Trek projects on Kaggle. I found some small beginnings of projects, but nothing notably extensive. I found [this Kaggle Kernel](https://www.kaggle.com/gjbroughton/start-trek-scripts) which was a nice beginning, so I decided to build off of what was in Gary's corresponding GitHub [repo](https://github.com/GJBroughton/Star_Trek_Scripts). 
 
-Gary wrote some web scraping code to grab all the text from all the episodes of Star Trek across each series, and by each character, from the website [chakoteya.net](http://www.chakoteya.net/StarTrek/index.html). Gary also wrotesome data cleansing code that I will use. Thanks, Captain Gary!
+Gary wrote some web scraping code to grab all the text from all the episodes of Star Trek across each series, and by each character, from the website [chakoteya.net](http://www.chakoteya.net/StarTrek/index.html). Gary also wrote some data cleansing code that I will use. Thanks, Captain Gary!
 
 Let's take a look at Gary's code, peek at the text that's pulled down, and see what we can do about some wordclouds, to see what words are emphasized in different Star Trek series.
 
@@ -180,7 +180,7 @@ with open('all_series_lines.json', 'r') as data:
     ENT
 
 
-## Analysis | Descriptive Stats
+## Quick Peek at the Data
 
 Gary wrote some initial code to get counts of all lines spoken by each character in a given series. He has DS9 as the default, but since I'm in the middle of Voyager, let's take a look at counts from that series instead.
 
@@ -221,10 +221,7 @@ I'll be honest in saying that since our dataset at hand is more recreational tha
 
 ## WordClouds
 
-While looking into some NLP kernels on Kaggle, I spotted a pretty interesting one that took images and created wordclouds from the outlines of the images:
-https://www.kaggle.com/arthurtok/spooky-nlp-and-topic-modelling-tutorial
-
-Using a bit of the code from this kernel, let's have some fun with the text at hand.
+While looking into some NLP kernels on Kaggle, I spotted a pretty interesting one that took images and created wordclouds from the outlines of the [images.](https://www.kaggle.com/arthurtok/spooky-nlp-and-topic-modelling-tutorial) Using a bit of the code from this kernel, let's have some fun with the text at hand.
 
 
 ```python
@@ -322,9 +319,11 @@ ds9_lines=[item for sublist in ds9_lines for item in sublist]
 ds9_lines=' '.join(ds9_lines)
 ```
 
-Below is the code used to plot the WordClouds. I played with different parameters, decreasing the max_words to 150, and increasing the max_font_size to 250, to help words "pop" a little more. I also made sure to remove the stopwords (is, as, a, the, etc.).
+Below is the code used to plot the WordClouds. I played with different parameters, decreasing the max_words to 250, and increasing the max_font_size to 250, to help words "pop" a little more. I also made sure to remove the stopwords (is, as, a, the, etc.). I attempted to use the WordNetLemmatizer in the nltk package, but it didn't seem to cut down the words at all, so I left it out of the code.
 
-The plots look pretty cool, but trying to analyze the most used words (the largest) doesn't really render much insight. If I do this exercise by splitting out each captain's lines or other characters, we might see something more interesting. At this point, however, I'm signing off and heading to the holodeck for some R&R (and by that I mean I'm shutting off my computer and will probably watch an episode of the Great British Baking Show).
+I'm pretty happy with how the plots turned out, but trying to analyze the most used words (the largest) doesn't really render too much insight. "Captain" is one of the largest words in both plots for TNG and Voyager, but not in DS9 (DS9 is the only series that takes place on a space station and not a ship, and power is shared between the Bajoran staff and Starfleet, putting less emphasis on the use of the word "Captain" for most characters perhaps), while all three of the plots seem to have "know", "will", "right", and "now" as pretty apparent words. These are all pretty active and moral words that encompass what Star Trek seems to be about.
+
+If I do this exercise by splitting out each captain's lines or other characters instead of using lines from all characters in all episodes of each series, we might see something more interesting. At this point, however, I'm signing off and heading to the holodeck for some R&R (and by that I mean I'm shutting off my computer and will probably watch an episode of the Great British Baking Show).
 
 
 ```python
