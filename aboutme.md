@@ -8,7 +8,7 @@ I'm a translator at the core of me, and I work through various mediums.
 
 ### Data Science
 
-I've been in the analytics field for about 5 years, translating piles of structured and unstructured data from raw records to actionable insights for a wide range of businesses in a wide range of roles. Have a look at my [LinkedIn](https://www.linkedin.com/in/triciascully/) for a more detailed description of the projects I've worked on in the real world, aside from these fun little projects here on this site.
+I've been in the analytics field for about 10 years, translating piles of structured and unstructured data from raw records to actionable insights for a wide range of businesses in a wide range of roles. Have a look at my [LinkedIn](https://www.linkedin.com/in/triciascully/) for a more detailed description of the projects I've worked on in the real world, aside from these fun little projects here on this site.
 
 ### Photography
 
@@ -20,8 +20,8 @@ I'm a [videographer](https://www.triciascully.com/Videography) for corporate and
 
 ### Music
 
-Taking complex messages and turning them into compact 2 1/2 minute narratives has been a puzzle I've enjoyed solving through [songwriting](https://youtu.be/zVcdyamcC0c) and playing in various bands for almost 20 years. I've toured the US and a few cities in Europe, but I stick to small venues on weekends in Chicago as of late.
+Taking complex messages and turning them into compact 2 1/2 minute narratives has been a puzzle I've enjoyed solving through [songwriting](https://youtu.be/zVcdyamcC0c) and playing in various bands for about 20 years. I've toured the US and a few cities in Europe, but I stick to small venues on weekends in Chicago as of late.
 
 ### Ice Hockey
 
-I play left wing for the Frozen Snappers D2 team in the WCHL, because we all need to have a little fun sometimes.
+I play center for the Evanston Tigers D4 women's hockey team in the WCHL, because we all need to have a little fun sometimes.
